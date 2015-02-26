@@ -13,10 +13,10 @@
 //TODO faire une classe erreur avec gestion des type d'erreur et ecriture dans les logs
 
 define ("DS"        , DIRECTORY_SEPARATOR);
-define ("PATH_BASE" , dirnamedirname(__FILE__)));
+define ("PATH_BASE" , dirname(dirname(__FILE__)));
 
-require_once(PATH_BASE.'includes'.DS.'defines.inc.php');
-require_once(PATH_BASE.'includes'.DS.'loader.inc.php');
+require_once(PATH_BASE.DS.'includes'.DS.'defines.inc.php');
+require_once(PATH_BASE.DS.'includes'.DS.'loader.inc.php');
 
 setlocale(LC_ALL, configuration::get('local','local'));
 

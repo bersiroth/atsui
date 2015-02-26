@@ -26,9 +26,7 @@ class debug {
         }
         
         $logPath = configuration::get('path','logPath').$fileName.'_'.date('Y-d-m').'.log';
-        if (false !== $handle = fopen($logPath, "a+")) {
-            die('ERROR FOR OPEN LOG FILE');
-        }
+        $handle = fopen($logPath, "a+");
         
         if(fwrite($handle, $tmpMessage) === FALSE) {
             die('ERROR FOR WRITE IN LOG FILE . '.$handle); 
