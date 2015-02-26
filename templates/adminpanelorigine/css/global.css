@@ -1,0 +1,49 @@
+/* 
+    Document   : global
+    Created on : 6 mai 2013, 11:50:12
+    Author     : bernard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div {
+    
+}
+
+#header{
+    border : 1px solid black;
+    height: 100px;
+    padding: 10px;
+}
+
+
+#main{
+    
+}
+#content{
+    border : 1px solid black;
+    padding: 10px;
+    width: 600px;
+    margin: 100px auto;
+}
+#col2{
+    border : 1px solid black;
+    padding: 10px;
+}
+
+#footer{
+    border : 1px solid black;
+    padding: 10px;
+}
+
+label {
+    width: 90px;
+    margin-top: 2px
+}
+.center {
+    width: 300px;
+}
+input {
+    padding: 2px;
+    margin-top: 2px
+}
